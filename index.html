@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tesla - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" lang="en" content="A prototype Tesla website for a Multimedia Major Work Assessment">
+    <meta name="author" content="Felix Partos">
+    <meta name="robots" content="index, follow">
+
+    <!-- icons -->
+    <link rel="tesla-icon" href="assets/img/favicon-32x32.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Bootstrap Core CSS file -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Override CSS file -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Conditional comment containing JS files for IE6 - 8 -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+  <!-- Sidenav -->
+  <div id="js-scrollspy">
+    <ul class="sidebar hidden-sm hidden-xs" role="navigation">
+      <li><a class="sidebar-link sidebar-link-home" href="#home"><span>Home</span></a></li>
+      <li><a class="sidebar-link sidebar-link-models" href="#models"><span>Models</span></a></li>
+      <li><a class="sidebar-link sidebar-link-map" href="#map"><span>Map</span></a></li>
+      <li><a class="sidebar-link sidebar-link-about" href="#about"><span>About</span></a></li>
+      <li><a class="sidebar-link sidebar-link-contact" href="#contact"><span>Contact</span></a></li>
+    </ul>
+  </div>
+
+
+    <!-- Page Content -->
+    <div class="container-fluid" role="main">
+
+      <!-- row1-intro -->
+      <div class="row tesla-panel tesla-panel-home" id="home">
+        <div class="col-sm-5 col-sm-offset-1 text-center">
+          <div class="text-panel">
+            <h1 class="home-heading">New Tesla S</h1>
+            <h2 class="home-subheading">Winter Edition</h2>
+            <a class="btn btn-primary" href="#model1">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="models">
+      <!-- row2-modelshome --> <!-- The buttons should be above each of the respected cars, however mobile viewing needs to be considered. Perhaps verticle cars instead of horizontal could work -->
+        <div class="row tesla-panel tesla-panel-modelshome">
+          <div class="col-sm-5 col-sm-offset-3 text-center">
+            <div class="text-panel">
+              <h1 class="home-heading">Models</h1>
+              <p class="font-size-20">Tesla has models suited to our consumers everyneeds. Whether you are a modest family looking for something affordable, or are a die-hard enthusiast that must have the most modern tech-filled car out there - we've got your back.</p>
+              <br>
+              <br>
+              <a class="btn btn-primary" href="#model1">Model S</a>
+              <br>
+              <br>
+              <a class="btn btn-primary" href="#model2">Model X</a>
+              <br>
+              <br>
+              <a class="btn btn-primary" href="#model3">Model 3</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- row2-models1 -->
+        <div class="row tesla-panel tesla-panel-model1" id="model1">
+          <div class="col-sm-5 col-sm-offset-6">
+            <div class="text-panel">
+              <h2>Model S</h2>
+              <p>The Tesla Model S serves as both a powerhouse for heavy duty professionals as well as a modern 4-foor sedan suitable for everyday family life. Have the best of both worlds.
+              </p>
+              <br>
+              <br>
+              <a class="btn btn-primary" href="#models">Back to Models</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- row3-models2 -->
+        <div class="row tesla-panel tesla-panel-model2" id="model2">
+          <div class="col-sm-6 col-sm-offset-2">
+            <div class="text-panel">
+              <h2>Model X</h2>
+              <p>The Tesla Model X is the most powerful 4WD ever built with [Specs] and [Specs]. If it can't conquer your challenge, nothing will.</p>
+              <br>
+              <br>
+              <a class="btn btn-primary" href="#models">Back to Models</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- row4-models3 -->
+        <div class="row tesla-panel tesla-panel-model3" id="model3">
+          <div class="col-sm-5 col-sm-offset-7" >
+            <div class="text-panel">
+              <h2>Model 3</h2>
+              <p>Our (as of yet) unreleased car, the Tesla Model 3 will serve as the most affordable choice of our entire range. However, don't think that means that you will be recieving a car that can't deliver. More details coming soon...
+              </p>
+              <br>
+              <br>
+              <a class="btn btn-primary" href="#models">Back to Models</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- row5-map -->
+      <div class="row tesla-panel tesla-panel-map" id="map">
+        <div class="col-sm-4 col-sm-offset-4">
+          <div class="text-panel text-center">
+            <h2>Map</h2>
+            <p>Choose the closest location:</p> <!-- Map should display depending on which button clicked -->
+            <br>
+            <button class="btn btn-primary">Sydney CBD</button>
+            <br>
+            <br>
+            <button class="btn btn-primary">St. Leonards</button>
+          </div>
+        </div>
+        <!-- <div class="google-maps col-sm-8 col-sm-offset-2"> - Embeded Google Map - Commented out until properly implemented
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91146.49297011238!2d151.10988100208257!3d-33.82082669637892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12aed92bc3c9ad%3A0x2a44e27b89e19b66!2sTesla+Motors!5e0!3m2!1sen!2sau!4v1491273778285" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>-->
+        <iframe src="https://www.google.com/maps/d/embed?mid=1_omnZO7Soj5VMBcJJOWGnM57VNs" width="640" height="480"></iframe>
+      </div>
+
+      <!-- row6-about -->
+      <div class="row tesla-panel tesla-panel-about" id="about">
+        <div class="col-sm-8 col-sm-offset-2">
+          <div class="text-panel">
+            <h2>About Us</h2>
+            <p>Tesla, Inc. (formerly named Tesla Motors) is an American automaker, energy storage company, and solar panel manufacturer based in Palo Alto, California. The company was initially founded in 2003 by Martin Eberhard and Marc Tarpenning, although the company also considers Elon Musk, JB Straubel, and Ian Wright amongst its co-founders. The company specialises in electric cars, Lithium-ion battery energy storage, and, through their SolarCity subsidiary, residential solar panels.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- row7-contact -->
+      <div class="row tesla-panel tesla-panel-contact" id="contact">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="text-panel">
+            <h2>Contact Us</h2>
+            <form action="#">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName1">Name</label>
+                <input type="password" class="form-control" id="exampleInputName1" placeholder="Name">
+              </div>
+               <div class="form-group">
+                <label for="exampleTextAreaComment1">Comment</label>
+                <textarea class="form-control" rows="3" id="exampleTextAreaComment1" placeholder="Comment"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container-fluid -->
+
+    <script src="scrollspy.js"></script>
+      <script>
+        var spy = new ScrollSpy('#js-scrollspy', {
+          nav: '.sidebar > li > a',
+          className: 'is-inview',
+          callback: function () {
+          }
+        });
+
+        var subSpy = new ScrollSpy('#js-scrollspy', {
+          nav: '.sidebar > li > a',
+          className: 'is-inview'
+        });
+      </script>
+
+
+    <!-- JQuery scripts -->
+      <!--<script src="assets/js/jquery-1.11.2.min.js">
+        $(document).ready(function () {
+          $(document).on("scroll", onScroll);
+          console.log("Test");
+        });
+
+
+        function onScroll(event){
+          var scrollPos = $(document).scrollTop();
+           $('.sidebar a').each(function () {
+              var currLink = $(this);
+              var refElement = $(currLink.attr("href"));
+              if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                 $('.sidebar li a').removeClass("active");
+                 currLink.addClass("active");
+              }
+              else{
+                 currLink.removeClass("active");
+              }
+        });
+    }
+
+
+      </script>-->
+
+    <!-- Bootstrap Core scripts -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
